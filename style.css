@@ -1,0 +1,51 @@
+/* global */
+body{
+    margin: 0 0 auto;
+}
+.container, .section{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.section{
+    padding: 20px 0;
+}
+#about_me, #skills, #footer{
+    padding: 20px auto;
+    width: 50%;
+}
+/* menu */
+div#menu{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+menu {
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 780px;
+    max-height: 500px;
+    border-radius: 0;
+}
+li {
+    flex-grow: 1;
+}
+button {
+    border: 0.01px solid;
+    height: 5vh;
+    width: 100%;
+}
+/* Image */
+img{
+    justify-self: center;
+}
+/* Footer */
+#footer{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
