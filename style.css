@@ -36,6 +36,7 @@ li {
     flex-grow: 1;
 }
 button {
+    background-color: #9BC1BC;
     border: 0.01px solid;
     height: 5vh;
     width: 100%;
