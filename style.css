@@ -1,6 +1,7 @@
 /* global */
 body{
     margin: 0 0 auto;
+    background-color: #686868;
 }
 .container, .section{
     display: flex;
@@ -39,10 +40,14 @@ button {
     height: 5vh;
     width: 100%;
 }
+button:hover {
+    cursor: pointer;
+}
 /* Image */
 img{
     justify-self: center;
 }
+/* About Me */
 /* Footer */
 #footer{
     display: flex;
