@@ -44,10 +44,6 @@ button {
 button:hover {
     cursor: pointer;
 }
-/* Image */
-img{
-    justify-self: center;
-}
 /* About Me */
 /* Footer */
 #footer{
